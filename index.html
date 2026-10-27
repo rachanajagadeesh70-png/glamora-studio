@@ -1,0 +1,2162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Glamora Studio - An exclusive, luxurious girls-only beauty salon & spa sanctuary. Experience couture hair styling, royal facials, signature bridal makeup, luxury nail art, and holistic pampering.">
+  <meta name="keywords"
+    content="Glamora Studio, women beauty salon, girls only salon, bridal makeup, hair spa, luxury skincare, manicure pedicure, waxing, salon for women">
+  <meta name="author" content="Glamora Studio">
+  <meta name="theme-color" content="#FDF2F4">
+
+  <!-- Open Graph / Social Meta -->
+  <meta property="og:title" content="Glamora Studio | Luxury Girls-Only Beauty Salon">
+  <meta property="og:description"
+    content="Your Beauty, Our Passion. A private sanctuary crafted exclusively for women with bespoke hair, skin, bridal artistry, and wellness.">
+  <meta property="og:type" content="website">
+
+  <title>Glamora Studio | Luxury Girls-Only Beauty Salon & Spa</title>
+
+  <!-- Google Fonts: Cormorant Garamond (Editorial Luxury Serif) & Plus Jakarta Sans (Modern UI Sans) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Ambient Glow Background Orbs -->
+  <div class="ambient-orb orb-1" aria-hidden="true"></div>
+  <div class="ambient-orb orb-2" aria-hidden="true"></div>
+  <div class="ambient-orb orb-3" aria-hidden="true"></div>
+
+  <!-- Announcement Bar -->
+  <aside class="announcement-bar" aria-label="Special Announcement">
+    <div class="announcement-content">
+      <span class="announcement-badge"><i class="fa-solid fa-sparkles"></i> Women-Only Haven</span>
+      <p>Exclusive Private Sanctuary for Women • Enjoy <strong>20% OFF</strong> Your First Visit with code <span
+          class="promo-pill" id="topPromoCode" title="Click to copy">GLAMORA20</span></p>
+      <a href="#booking" class="announcement-link">Claim Offer <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+  </aside>
+
+  <!-- Navigation Header -->
+  <header class="site-header" id="header">
+    <div class="nav-container">
+      <!-- Brand Logo -->
+      <a href="#hero" class="brand-logo" aria-label="Glamora Studio Home">
+        <div class="logo-mark">
+          <svg viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg" class="logo-svg" role="img"
+            aria-hidden="true">
+            <defs>
+              <linearGradient id="roseLineGradHeader" x1="14" y1="12" x2="42" y2="44" gradientUnits="userSpaceOnUse">
+                <stop offset="0%" stop-color="#D49A9E" />
+                <stop offset="50%" stop-color="#B76E79" />
+                <stop offset="100%" stop-color="#8C4652" />
+              </linearGradient>
+              <radialGradient id="faceAuraHeader" cx="28" cy="28" r="26" gradientUnits="userSpaceOnUse">
+                <stop offset="0%" stop-color="#FFFCFA" stop-opacity="0.95" />
+                <stop offset="65%" stop-color="#F7E7E9" stop-opacity="0.55" />
+                <stop offset="100%" stop-color="#B76E79" stop-opacity="0.1" />
+              </radialGradient>
+            </defs>
+            <!-- Soft Background Aura -->
+            <circle cx="28" cy="28" r="26" fill="url(#faceAuraHeader)" />
+
+            <!-- Subtle Outer Ring -->
+            <circle class="logo-ring-base" cx="28" cy="28" r="25" stroke="#B76E79" stroke-width="1.15" />
+
+            <!-- Blush-Pink Rotating Outline -->
+            <circle class="logo-ring-orbit" cx="28" cy="28" r="22.5" stroke="#F7E7E9" stroke-width="0.9"
+              stroke-dasharray="4 3" />
+
+            <!-- Face Icon & Hair Art Group -->
+            <g class="face-art-group">
+              <!-- Feminine Profile Contour: Forehead, Nose, Lips, Chin, Jawline -->
+              <path class="face-contour"
+                d="M24 13.5 C25.8 16.5 27.2 19.5 27.6 22 L31.4 25.2 C30.8 25.9 30 26.5 29.6 27 C30.5 27.5 31.2 28.1 31 28.8 C30.2 29.2 29.7 29.5 29.4 29.9 C30.2 30.5 30.7 31.3 30.3 31.9 C29.5 32.3 29.1 32.7 29.3 33.3 C29.9 34.1 29.9 34.9 29 35.7 C27.3 37.1 25.3 38.3 24.3 40.3 C23.8 41.8 24 43.8 24.3 45.8"
+                stroke="url(#roseLineGradHeader)" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+
+              <!-- Serene Closed Eyelash & Brow -->
+              <path d="M26 23.8 Q27.6 23.2 29 24.8" stroke="#B76E79" stroke-width="1" stroke-linecap="round" />
+              <path d="M28.6 24.6 L29.6 24" stroke="#B76E79" stroke-width="0.85" stroke-linecap="round" />
+              <path d="M24.6 21.2 Q26.6 19.8 28.8 21" stroke="#B76E79" stroke-width="0.85" stroke-linecap="round"
+                stroke-opacity="0.85" />
+
+              <!-- Flowing Hair Waves -->
+              <path d="M23.5 13.5 C20 13 16 16 14.5 21 C12.8 27 13.5 33.5 15.5 38.5 C17 42 20 44.5 23.5 45.5"
+                stroke="url(#roseLineGradHeader)" stroke-width="1.2" stroke-linecap="round" />
+              <path d="M21 16.5 C18 19 16.2 23.5 16.8 28.5 C17.3 33.5 19.3 37.5 22.2 40.5" stroke="#B76E79"
+                stroke-width="0.85" stroke-linecap="round" stroke-opacity="0.75" />
+              <path d="M24 13.8 C22 17 20 20 20.5 23.5" stroke="#B76E79" stroke-width="0.95" stroke-linecap="round" />
+
+              <!-- Elegant Décolletage / Neck Curve -->
+              <path d="M27 42 C29 43.8 32 44.8 35 45.2" stroke="#B76E79" stroke-width="1.1" stroke-linecap="round"
+                stroke-opacity="0.75" />
+
+              <!-- Subtle Floral Detail (Blossom tucked at hair) -->
+              <circle cx="20.5" cy="23.2" r="1.1" fill="#B76E79" />
+              <path d="M20.5 23.2 C20 20.8 22 20.2 21.8 22.2 Z" fill="#F7E7E9" stroke="#B76E79" stroke-width="0.75" />
+              <path d="M20.5 23.2 C22.8 21.7 23.5 23.2 22 23.7 Z" fill="#F7E7E9" stroke="#B76E79" stroke-width="0.75" />
+              <path d="M20.5 23.2 C22.5 25.2 21 26 20.8 24.2 Z" fill="#F7E7E9" stroke="#B76E79" stroke-width="0.75" />
+              <path d="M20.5 23.2 C18.8 25.2 18 23.7 19.5 23.2 Z" fill="#F7E7E9" stroke="#B76E79" stroke-width="0.75" />
+              <path d="M20.5 23.2 C18.5 21.7 20 20.7 20.2 22.2 Z" fill="#F7E7E9" stroke="#B76E79" stroke-width="0.75" />
+              <path d="M19.5 25.8 Q17 28.2 17.5 30.8" stroke="#B76E79" stroke-width="0.8" stroke-linecap="round" />
+              <path d="M17.5 27.8 Q15.8 28.3 16.5 29.8 Q17.8 29.3 17.5 27.8 Z" fill="#F7E7E9" stroke="#B76E79"
+                stroke-width="0.7" />
+            </g>
+          </svg>
+        </div>
+        <div class="logo-text-group">
+          <span class="logo-title">GLAMORA</span>
+          <span class="logo-subtitle">STUDIO • GIRLS ONLY</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="main-nav" id="mainNav" aria-label="Primary Navigation">
+        <ul class="nav-links">
+          <li><a href="#hero" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About Us</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#offers" class="nav-link">Offers</a></li>
+          <li><a href="#gallery" class="nav-link">Gallery</a></li>
+          <li><a href="#experts" class="nav-link">Our Experts</a></li>
+          <li><a href="#testimonials" class="nav-link">Reviews</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Header Actions -->
+      <div class="nav-actions">
+        <a href="#booking" class="btn btn-primary btn-glow nav-btn">
+          <span>Book Appointment</span>
+          <i class="fa-regular fa-calendar-check"></i>
+        </a>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation menu" aria-expanded="false"
+          aria-controls="mobileDrawer">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Drawer -->
+  <div class="mobile-drawer" id="mobileDrawer" aria-hidden="true">
+    <div class="drawer-header">
+      <div class="logo-text-group">
+        <span class="logo-title">GLAMORA</span>
+        <span class="logo-subtitle">EXCLUSIVELY FOR WOMEN</span>
+      </div>
+      <button class="drawer-close" id="drawerClose" aria-label="Close navigation menu">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+    </div>
+    <ul class="mobile-nav-links">
+      <li><a href="#hero" class="mobile-nav-link"><i class="fa-solid fa-house"></i> Home</a></li>
+      <li><a href="#about" class="mobile-nav-link"><i class="fa-solid fa-gem"></i> About Us</a></li>
+      <li><a href="#services" class="mobile-nav-link"><i class="fa-solid fa-wand-magic-sparkles"></i> Services</a></li>
+      <li><a href="#offers" class="mobile-nav-link"><i class="fa-solid fa-tags"></i> Offers</a></li>
+      <li><a href="#gallery" class="mobile-nav-link"><i class="fa-solid fa-images"></i> Gallery</a></li>
+      <li><a href="#experts" class="mobile-nav-link"><i class="fa-solid fa-crown"></i> Our Experts</a></li>
+      <li><a href="#testimonials" class="mobile-nav-link"><i class="fa-solid fa-star"></i> Reviews</a></li>
+      <li><a href="#contact" class="mobile-nav-link"><i class="fa-solid fa-envelope"></i> Contact</a></li>
+    </ul>
+    <div class="drawer-footer">
+      <a href="#booking" class="btn btn-primary btn-block drawer-book-btn">
+        <span>Book Appointment Now</span>
+        <i class="fa-regular fa-calendar-check"></i>
+      </a>
+      <div class="drawer-contact-quick">
+        <p><i class="fa-solid fa-phone"></i> +1 (800) 555-GLAM</p>
+        <p><i class="fa-solid fa-location-dot"></i> Vivekananda Circle, 2nd Block, Mysore</p>
+      </div>
+    </div>
+  </div>
+  <div class="drawer-backdrop" id="drawerBackdrop"></div>
+
+  <main id="main-content">
+
+    <!-- ==================== HERO SECTION ==================== -->
+    <section class="hero-section" id="hero">
+      <div class="hero-background-wrapper">
+        <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=2000&q=85"
+          alt="Glamora Studio luxurious interior with arched mirrors and velvet rose chairs" class="hero-bg-img"
+          id="heroBgImg">
+        <div class="hero-overlay"></div>
+      </div>
+
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="hero-badge hero-entrance-badge" id="heroBadge">
+            <span class="badge-dot"></span>
+            <span>Exclusively For Women • A Sanctuary of Grace</span>
+          </div>
+
+          <h1 class="hero-title" id="heroTitle" aria-label="Your Beauty, Our Passion">
+            <span class="hero-line hero-line-1" data-line="1">Your Beauty,</span>
+            <span class="hero-line hero-line-2 highlight-text" data-line="2">Our Passion</span>
+          </h1>
+
+          <p class="hero-description hero-entrance-desc" id="heroDescription">
+            Step into an opulent, women-only oasis designed for bespoke hair styling, radiant skincare, couture bridal
+            artistry, and royal spa therapies. Experience true elegance in absolute comfort and privacy.
+          </p>
+
+          <div class="hero-actions hero-entrance-actions" id="heroActions">
+            <a href="#booking" class="btn btn-primary btn-large btn-glow hero-btn hero-btn-primary" id="heroBtnBook">
+              <span>Book Your Experience</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+            <a href="#services" class="btn btn-secondary btn-large hero-btn hero-btn-secondary" id="heroBtnExplore">
+              <span>Explore Services</span>
+              <i class="fa-solid fa-sparkles"></i>
+            </a>
+          </div>
+
+          <!-- Trust & Excellence Stats Bar -->
+          <div class="hero-stats animate-slide-up delay-3">
+            <div class="stat-card">
+              <span class="stat-number" data-target="15000">15,000+</span>
+              <span class="stat-label">Happy Queens Served</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-card">
+              <span class="stat-number">100%</span>
+              <span class="stat-label">Female Certified Stylists</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-card">
+              <span class="stat-number">4.9<i class="fa-solid fa-star star-mini"></i></span>
+              <span class="stat-label">Based on 2,400+ Reviews</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-card">
+              <span class="stat-number" data-target="8">8+</span>
+              <span class="stat-label">Years of Luxury Artistry</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-indicator">
+        <a href="#about" aria-label="Scroll to About section">
+          <span>Scroll to Discover</span>
+          <i class="fa-solid fa-chevron-down"></i>
+        </a>
+      </div>
+    </section>
+
+    <!-- ==================== ABOUT US SECTION ==================== -->
+    <section class="about-section section-padding" id="about">
+      <div class="container">
+        <div class="about-grid">
+          <!-- About Image Column (Left) -->
+          <div class="about-visual-column" id="aboutVisualCol">
+            <div class="about-image-card" id="aboutImageCard">
+              <div class="about-glow-border" aria-hidden="true"></div>
+              <div class="sanctuary-seal about-floating-seal">
+                <i class="fa-solid fa-venus"></i>
+                <span>Strictly For Women</span>
+              </div>
+              <div class="about-img-viewport">
+                <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=1000&q=85"
+                  alt="Relaxing skincare facial therapy at Glamora Studio" class="about-main-img" id="aboutMainImg"
+                  loading="lazy">
+              </div>
+              <div class="experience-badge about-floating-badge" id="aboutExpBadge">
+                <span class="badge-num">8+</span>
+                <span class="badge-text">Years of Timeless Radiance</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- About Narrative Column (Right) -->
+          <div class="about-content-column">
+            <div class="section-tag about-tag">
+              <i class="fa-solid fa-gem"></i>
+              <span>Our Brand Philosophy</span>
+            </div>
+            <h2 class="section-title about-title" id="aboutTitle">
+              <span class="title-line">
+                <span class="word-reveal" style="--w-idx: 0">A</span>
+                <span class="word-reveal" style="--w-idx: 1">Private</span>
+                <span class="word-reveal" style="--w-idx: 2">Sanctuary</span>
+                <span class="word-reveal" style="--w-idx: 3">Designed</span>
+              </span>
+              <br>
+              <span class="highlight-text shimmer-text title-line">
+                <span class="word-reveal" style="--w-idx: 4">For</span>
+                <span class="word-reveal" style="--w-idx: 5">Women,</span>
+                <span class="word-reveal" style="--w-idx: 6">By</span>
+                <span class="word-reveal" style="--w-idx: 7">Women</span>
+              </span>
+            </h2>
+            <p class="about-lead">
+              Welcome to <strong>Glamora Studio</strong>, where self-care is elevated into a refined art form. Founded
+              on the belief that every woman deserves an intimate, luxurious retreat free from judgment and haste.
+            </p>
+            <p class="about-body">
+              From the gentle aroma of pure French damask roses upon entry, to our private styling suites and
+              hypoallergenic, cruelty-free botanicals, every detail of Glamora Studio is meticulously curated for your
+              peace of mind and radiant transformation.
+            </p>
+
+            <!-- 4 Pillar Features (2-Column Grid) -->
+            <div class="about-pillars">
+              <div class="pillar-card" style="--p-idx: 0">
+                <div class="pillar-icon"><i class="fa-solid fa-shield-heart"></i></div>
+                <div class="pillar-info">
+                  <h4>100% Private & Women-Only</h4>
+                  <p>Guaranteed privacy with female-only staff and discreet private treatment suites.</p>
+                </div>
+              </div>
+
+              <div class="pillar-card" style="--p-idx: 1">
+                <div class="pillar-icon"><i class="fa-solid fa-wand-magic"></i></div>
+                <div class="pillar-info">
+                  <h4>Master Certified Stylists</h4>
+                  <p>Internationally trained artists specializing in advanced haircare, skincare, and bridal looks.</p>
+                </div>
+              </div>
+
+              <div class="pillar-card" style="--p-idx: 2">
+                <div class="pillar-icon"><i class="fa-solid fa-leaf"></i></div>
+                <div class="pillar-info">
+                  <h4>Organic & Premium Botanicals</h4>
+                  <p>We use only dermatologist-tested, ammonia-free, and clean cruelty-free formulations.</p>
+                </div>
+              </div>
+
+              <div class="pillar-card" style="--p-idx: 3">
+                <div class="pillar-icon"><i class="fa-solid fa-mug-hot"></i></div>
+                <div class="pillar-info">
+                  <h4>Complimentary VIP Lounge</h4>
+                  <p>Relax with artisanal herbal teas, organic mocktails, and fresh macarons during your visit.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="about-signature-wrap">
+              <div class="founder-info">
+                <span class="founder-name">Valerie Montgomery</span>
+                <span class="founder-role">Founder & Creative Director</span>
+              </div>
+              <div class="signature-font">Valerie M.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== BEAUTY SERVICES SECTION ==================== -->
+    <section class="services-section section-padding bg-light" id="services">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="section-tag center-tag">
+            <i class="fa-solid fa-wand-magic-sparkles"></i>
+            <span>Our Bespoke Menu</span>
+          </div>
+          <h2 class="section-title">
+            Exceptional Beauty Rituals <br>
+            <span class="highlight-text">Tailored For You</span>
+          </h2>
+          <p class="section-subtitle">
+            Explore our curated menu of hair, face, bridal, and body services, performed with master precision and
+            luxurious care.
+          </p>
+
+          <!-- Interactive Category Filter Tabs -->
+          <div class="services-filter-nav" role="tablist" aria-label="Filter Services">
+            <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">All Services</button>
+            <button class="filter-btn" data-filter="hair" role="tab" aria-selected="false">Hair Care</button>
+            <button class="filter-btn" data-filter="skin" role="tab" aria-selected="false">Skin & Facials</button>
+            <button class="filter-btn" data-filter="bridal" role="tab" aria-selected="false">Bridal & Makeup</button>
+            <button class="filter-btn" data-filter="nails" role="tab" aria-selected="false">Nails & Spa</button>
+            <button class="filter-btn" data-filter="grooming" role="tab" aria-selected="false">Waxing & Brows</button>
+          </div>
+        </div>
+
+        <!-- Services Grid (8 Required Cards) -->
+        <div class="services-grid" id="servicesGrid">
+
+          <!-- 1. Hair Styling -->
+          <article class="service-card" data-category="hair">
+            <div class="service-media">
+              <img src="https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&w=800&q=80"
+                alt="Hair styling and couture cut at Glamora Studio" loading="lazy">
+              <span class="service-category-tag">Hair Care</span>
+            </div>
+            <div class="service-content">
+              <div class="service-meta">
+                <span class="service-duration"><i class="fa-regular fa-clock"></i> 45 - 60 mins</span>
+                <span class="service-rating"><i class="fa-solid fa-star"></i> 4.9</span>
+              </div>
+              <h3 class="service-title">Hair Styling & Couture Cuts</h3>
+              <p class="service-desc">
+                Personalized consultation, face-framing cuts, blowouts, and signature red-carpet waves utilizing thermal
+                protection and nourishing serums.
+              </p>
+              <div class="service-footer">
+                <div class="service-price">
+                  <span class="price-prefix">Starting at</span>
+                  <span class="price-value">₹3,735</span>
+                </div>
+                <button class="btn btn-outline-primary book-service-btn" data-service="Hair Styling & Couture Cuts">
+                  <span>Book Now</span>
+                  <i class="fa-solid fa-chevron-right"></i>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- 2. Hair Spa & Keratin Therapy -->
+          <article class="service-card" data-category="hair">
+            <div class="service-media">
+              <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=800&q=80"
+                alt="Deep nourishing hair spa treatment" loading="lazy">
+              <span class="service-category-tag">Hair Spa</span>
+            </div>
+            <div class="service-content">
+              <div class="service-meta">
+                <span class="service-duration"><i class="fa-regular fa-clock"></i> 75 mins</span>
+                <span class="service-rating"><i class="fa-solid fa-star"></i> 5.0</span>
+              </div>
+              <h3 class="service-title">Organic Hair Spa & Keratin</h3>
+              <p class="service-desc">
+                Revitalizing scalp detox, hot towel botanical oil infusion, deep collagen mask, and keratin smoothing to
+                restore lustrous gloss.
+              </p>
+              <div class="service-footer">
+                <div class="service-price">
+                  <span class="price-prefix">Starting at</span>
+                  <span class="price-value">₹6,225</span>
+                </div>
+                <button class="btn btn-outline-primary book-service-btn"
+                  data-service="Organic Hair Spa & Keratin Therapy">
+                  <span>Book Now</span>
+                  <i class="fa-solid fa-chevron-right"></i>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- 3. Facial & Skincare -->
+          <article class="service-card" data-category="skin">
+            <div class="service-media">
+              <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=800&q=80"
+                alt="Luxury facial and skincare treatment" loading="lazy">
+              <span class="service-category-tag">Skincare</span>
+            </div>
+            <div class="service-content">
+              <div class="service-meta">
+                <span class="service-duration"><i class="fa-regular fa-clock"></i> 60 - 90 mins</span>
+                <span class="service-rating"><i class="fa-solid fa-star"></i> 4.9</span>
+              </div>
+              <h3 class="service-title">Royal Radiance Facial & Skincare</h3>
+              <p class="service-desc">
+                Micro-exfoliation, hyaluronic acid infusion, lymphatic drainage facial massage, and 24K rose gold mask
+                for an ageless dewy glow.
+              </p>
+              <div class="service-footer">
+                <div class="service-price">
+                  <span class="price-prefix">Starting at</span>
+                  <span class="price-value">₹5,395</span>
+                </div>
+                <button class="btn btn-outline-primary book-service-btn"
+                  data-service="Royal Radiance Facial & Skincare">
+                  <span>Book Now</span>
+                  <i class="fa-solid fa-chevron-right"></i>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- 4. Bridal Makeup -->
+          <article class="service-card featured-service" data-category="bridal">
+            <div class="service-media">
+              <div class="popular-ribbon"><i class="fa-solid fa-heart"></i> Signature</div>
+              <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=800&q=80"
+                alt="Exquisite bridal makeup and hair" loading="lazy">
+              <span class="service-category-tag">Bridal Couture</span>
+            </div>
+            <div class="service-content">
+              <div class="service-meta">
+                <span class="service-duration"><i class="fa-regular fa-clock"></i> 120 mins</span>
+                <span class="service-rating"><i class="fa-solid fa-star"></i> 5.0</span>
+              </div>
+              <h3 class="service-title">Signature Bridal Makeup</h3>
+              <p class="service-desc">
+                Complete bridal artistry including HD airbrush complexion, custom mink lashes, intricate hair styling,
+                veil draping, and touch-up kit.
+              </p>
+              <div class="service-footer">
+                <div class="service-price">
+                  <span class="price-prefix">Starting at</span>
+                  <span class="price-value">₹14,940</span>
+                </div>
+                <button class="btn btn-outline-primary book-service-btn" data-service="Signature Bridal Makeup">
+                  <span>Book Now</span>
+                  <i class="fa-solid fa-chevron-right"></i>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- 5. Party Makeup -->
+          <article class="service-card" data-category="bridal">
+            <div class="service-media">
+              <img src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=800&q=80"
+                alt="Glamorous party makeup and hairstyling" loading="lazy">
+              <span class="service-category-tag">Occasion</span>
+            </div>
+            <div class="service-content">
+              <div class="service-meta">
+                <span class="service-duration"><i class="fa-regular fa-clock"></i> 60 mins</span>
+                <span class="service-rating"><i class="fa-solid fa-star"></i> 4.8</span>
+              </div>
+              <h3 class="service-title">Red Carpet Party Makeup</h3>
+              <p class="service-desc">
+                Glamorous evening looks, soft smoky eyes, sculpted cheekbones, and flawless setting spray to last all
+                night through dances and toasts.
+              </p>
+              <div class="service-footer">
+                <div class="service-price">
+                  <span class="price-prefix">Starting at</span>
+                  <span class="price-value">₹5,810</span>
+                </div>
+                <button class="btn btn-outline-primary book-service-btn" data-service="Red Carpet Party Makeup">
+                  <span>Book Now</span>
+                  <i class="fa-solid fa-chevron-right"></i>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- 6. Manicure & Pedicure -->
+          <article class="service-card" data-category="nails">
+            <div class="service-media">
+              <img src="https://images.unsplash.com/photo-1632345031435-8727f6897d53?auto=format&fit=crop&w=800&q=80"
+                alt="Deluxe manicure with rose gold nail art" loading="lazy">
+              <span class="service-category-tag">Nail Couture</span>
+            </div>
+            <div class="service-content">
+              <div class="service-meta">
+                <span class="service-duration"><i class="fa-regular fa-clock"></i> 60 mins</span>
+                <span class="service-rating"><i class="fa-solid fa-star"></i> 4.9</span>
+              </div>
+              <h3 class="service-title">Deluxe Manicure & Pedicure</h3>
+              <p class="service-desc">
+                Rose petal milk bath soak, gentle sugar exfoliation, callus softening, cuticle care, hand-and-foot
+                massage, and gel chrome polish.
+              </p>
+              <div class="service-footer">
+                <div class="service-price">
+                  <span class="price-prefix">Starting at</span>
+                  <span class="price-value">₹3,320</span>
+                </div>
+                <button class="btn btn-outline-primary book-service-btn" data-service="Deluxe Manicure & Pedicure">
+                  <span>Book Now</span>
+                  <i class="fa-solid fa-chevron-right"></i>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- 7. Waxing -->
+          <article class="service-card" data-category="grooming">
+            <div class="service-media">
+              <img src="https://images.unsplash.com/photo-1519823551278-64ac92734fb1?auto=format&fit=crop&w=800&q=80"
+                alt="Gentle silk waxing and soothing smooth skin care" loading="lazy"
+                onerror="if(this.dataset.fallbackLoaded !== 'true'){ this.dataset.fallbackLoaded='true'; this.src='https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=800&q=80'; }">
+              <span class="service-category-tag">Body Silk</span>
+            </div>
+            <div class="service-content">
+              <div class="service-meta">
+                <span class="service-duration"><i class="fa-regular fa-clock"></i> 30 - 45 mins</span>
+                <span class="service-rating"><i class="fa-solid fa-star"></i> 4.9</span>
+              </div>
+              <h3 class="service-title">Gentle Silk Waxing</h3>
+              <p class="service-desc">
+                Ultra-hygienic hot and strip wax enriched with chamomile and titanium dioxide for delicate female skin.
+                Smooth results up to 4 weeks.
+              </p>
+              <div class="service-footer">
+                <div class="service-price">
+                  <span class="price-prefix">Starting at</span>
+                  <span class="price-value">₹2,490</span>
+                </div>
+                <button class="btn btn-outline-primary book-service-btn" data-service="Gentle Silk Waxing">
+                  <span>Book Now</span>
+                  <i class="fa-solid fa-chevron-right"></i>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- 8. Eyebrow Threading & Tint -->
+          <article class="service-card" data-category="grooming">
+            <div class="service-media">
+              <img src="https://images.unsplash.com/photo-1588516903720-8ceb67f9ef84?auto=format&fit=crop&w=800&q=80"
+                alt="Precision eyebrow threading and brow sculpting" loading="lazy">
+              <span class="service-category-tag">Brow & Lash</span>
+            </div>
+            <div class="service-content">
+              <div class="service-meta">
+                <span class="service-duration"><i class="fa-regular fa-clock"></i> 20 mins</span>
+                <span class="service-rating"><i class="fa-solid fa-star"></i> 5.0</span>
+              </div>
+              <h3 class="service-title">Precision Eyebrow Threading</h3>
+              <p class="service-desc">
+                High-definition brow mapping, organic cotton threading, natural henna/hybrid tinting, and soothing rose
+                aloe vera gel application.
+              </p>
+              <div class="service-footer">
+                <div class="service-price">
+                  <span class="price-prefix">Starting at</span>
+                  <span class="price-value">₹1,494</span>
+                </div>
+                <button class="btn btn-outline-primary book-service-btn" data-service="Precision Eyebrow Threading">
+                  <span>Book Now</span>
+                  <i class="fa-solid fa-chevron-right"></i>
+                </button>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+        <!-- Interactive Quick Cost Estimator Bar -->
+        <div class="calculator-banner">
+          <div class="calc-text">
+            <h4><i class="fa-solid fa-calculator"></i> Planning a Full Pamper Day?</h4>
+            <p>Select your favorite beauty rituals and instantly estimate your treatment time and investment.</p>
+          </div>
+          <button class="btn btn-primary" id="openEstimatorBtn">
+            <span>Open Price Calculator</span>
+            <i class="fa-solid fa-sparkles"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== SPECIAL OFFERS & PACKAGES ==================== -->
+    <section class="offers-section section-padding" id="offers">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="section-tag center-tag">
+            <i class="fa-solid fa-gift"></i>
+            <span>Limited Privileges</span>
+          </div>
+          <h2 class="section-title">
+            Exclusive Packages & <br>
+            <span class="highlight-text">Seasonal Offers</span>
+          </h2>
+          <p class="section-subtitle">
+            Indulge in thoughtfully bundled rituals that provide comprehensive pampering at exceptional value.
+          </p>
+
+          <!-- Countdown Timer for Seasonal Package -->
+          <div class="offer-countdown-box">
+            <span class="countdown-label"><i class="fa-regular fa-clock"></i> Wedding & Holiday Glow Specials End
+              In:</span>
+            <div class="countdown-timer" id="offerCountdown">
+              <div class="time-block"><span class="time-num" id="days">04</span><span class="time-unit">Days</span>
+              </div>
+              <span class="time-sep">:</span>
+              <div class="time-block"><span class="time-num" id="hours">14</span><span class="time-unit">Hours</span>
+              </div>
+              <span class="time-sep">:</span>
+              <div class="time-block"><span class="time-num" id="minutes">32</span><span class="time-unit">Mins</span>
+              </div>
+              <span class="time-sep">:</span>
+              <div class="time-block"><span class="time-num" id="seconds">48</span><span class="time-unit">Secs</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Offers Grid -->
+        <div class="offers-grid">
+
+          <!-- Offer 1: Royal Bridal -->
+          <div class="offer-card featured-offer">
+            <div class="offer-badge-ribbon">Most Coveted</div>
+            <div class="offer-header">
+              <span class="offer-tier">Bridal Grand Package</span>
+              <h3 class="offer-title">The Royal Queen Bridal Journey</h3>
+              <p class="offer-subtitle">3-Day Complete Wedding Transformation</p>
+            </div>
+            <div class="offer-pricing">
+              <span class="original-price">₹31,540</span>
+              <span class="price-arrow" aria-hidden="true">→</span>
+              <span class="discounted-price">₹23,655</span>
+              <span class="savings-tag" title="Save ₹7,885">Save 25%</span>
+            </div>
+            <ul class="offer-perks">
+              <li><i class="fa-solid fa-check"></i> HD Airbrush Bridal Makeup + Pre-Wedding Trial</li>
+              <li><i class="fa-solid fa-check"></i> 24K Gold Luxury Radiance Facial & Neck Therapy</li>
+              <li><i class="fa-solid fa-check"></i> Hair Spa, Deep Conditioning & Couture Bridal Styling</li>
+              <li><i class="fa-solid fa-check"></i> Full Arm, Leg & Body Silk Waxing</li>
+              <li><i class="fa-solid fa-check"></i> Deluxe Rose Petal Manicure & Pedicure with French Gel</li>
+              <li><i class="fa-solid fa-check"></i> Complimentary Champagne & Keepsake Touch-up Kit</li>
+            </ul>
+            <div class="offer-action">
+              <button class="btn btn-primary btn-block book-package-btn"
+                data-package="The Royal Queen Bridal Journey (₹23,655)">
+                <span>Reserve Royal Package</span>
+                <i class="fa-solid fa-calendar-check"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- Offer 2: Glow & Revive -->
+          <div class="offer-card">
+            <div class="offer-header">
+              <span class="offer-tier">Weekend Bliss</span>
+              <h3 class="offer-title">Glow & Revive Day Spa</h3>
+              <p class="offer-subtitle">Recharge Body, Hair & Soul in 2.5 Hours</p>
+            </div>
+            <div class="offer-pricing">
+              <span class="original-price">₹13,695</span>
+              <span class="price-arrow" aria-hidden="true">→</span>
+              <span class="discounted-price">₹9,877</span>
+              <span class="savings-tag" title="Save ₹3,818">Save 28%</span>
+            </div>
+            <ul class="offer-perks">
+              <li><i class="fa-solid fa-check"></i> Hydrating Rose Skincare Facial with Cold Jade Rollers</li>
+              <li><i class="fa-solid fa-check"></i> Botanical Hair Spa with Head & Neck Acupressure</li>
+              <li><i class="fa-solid fa-check"></i> Classic Express Manicure with Cuticle Nourishment</li>
+              <li><i class="fa-solid fa-check"></i> Eyebrow Threading & Precision Shaping</li>
+              <li><i class="fa-solid fa-check"></i> Choice of Herbal Infused Tea & Macarons</li>
+            </ul>
+            <div class="offer-action">
+              <button class="btn btn-outline-primary btn-block book-package-btn"
+                data-package="Glow & Revive Day Spa (₹9,877)">
+                <span>Reserve Glow Package</span>
+                <i class="fa-solid fa-calendar-check"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- Offer 3: Besties Duo -->
+          <div class="offer-card">
+            <div class="offer-header">
+              <span class="offer-tier">Girls' Day Out</span>
+              <h3 class="offer-title">Sip & Pamper Friends Duo</h3>
+              <p class="offer-subtitle">Designed for You and Your Best Friend</p>
+            </div>
+            <div class="offer-pricing">
+              <span class="original-price">₹18,260</span>
+              <span class="price-arrow" aria-hidden="true">→</span>
+              <span class="discounted-price">₹13,197</span>
+              <span class="savings-tag" title="Save ₹5,063 for both">Save 28%</span>
+            </div>
+            <ul class="offer-perks">
+              <li><i class="fa-solid fa-check"></i> Side-by-Side Deluxe Rose Petal Pedicures</li>
+              <li><i class="fa-solid fa-check"></i> Designer Gel Manicure with Free Accent Nail Art</li>
+              <li><i class="fa-solid fa-check"></i> Signature Blowout & Glamour Waves Styling</li>
+              <li><i class="fa-solid fa-check"></i> 10-Minute Relaxation Shoulder Massage each</li>
+              <li><i class="fa-solid fa-check"></i> Private Suite Booking with Music Selection</li>
+            </ul>
+            <div class="offer-action">
+              <button class="btn btn-outline-primary btn-block book-package-btn"
+                data-package="Sip & Pamper Friends Duo (₹13,197)">
+                <span>Reserve Duo Package</span>
+                <i class="fa-solid fa-calendar-check"></i>
+              </button>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Promo Banner with Interactive Copy -->
+        <div class="promo-coupon-banner">
+          <div class="coupon-left">
+            <span class="coupon-tag">First-Time Client Welcome</span>
+            <h3>Get 20% OFF Your Entire First Appointment</h3>
+            <p>Applicable to all individual beauty services and weekday spa sessions. Valid through this month.</p>
+          </div>
+          <div class="coupon-right">
+            <div class="coupon-code-box">
+              <span class="code-text" id="couponCode">GLAMORA20</span>
+              <button class="btn-copy-code" id="copyCodeBtn" aria-label="Copy promotion code">
+                <i class="fa-regular fa-copy"></i>
+                <span id="copyBtnText">Copy Code</span>
+              </button>
+            </div>
+            <small class="coupon-terms">*Excludes bridal packages. Cannot be combined with other discounts.</small>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== GALLERY SECTION ==================== -->
+    <section class="gallery-section section-padding bg-light" id="gallery">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="section-tag center-tag">
+            <i class="fa-solid fa-camera"></i>
+            <span>Visual Splendor</span>
+          </div>
+          <h2 class="section-title">
+            Our Studio <br>
+            <span class="highlight-text">Artistry & Ambiance</span>
+          </h2>
+          <p class="section-subtitle">
+            Glimpse into the transformative artistry, bridal creations, and blissful sanctuary moments created at
+            Glamora Studio.
+          </p>
+
+          <!-- Gallery Filter Buttons -->
+          <div class="gallery-filters" role="tablist" aria-label="Filter Gallery">
+            <button class="gallery-filter-btn active" data-gallery-filter="all">All Looks</button>
+            <button class="gallery-filter-btn" data-gallery-filter="bridal">Bridal Looks</button>
+            <button class="gallery-filter-btn" data-gallery-filter="hair">Hair Styling</button>
+            <button class="gallery-filter-btn" data-gallery-filter="skin">Skincare & Spa</button>
+            <button class="gallery-filter-btn" data-gallery-filter="nails">Nail Art</button>
+            <button class="gallery-filter-btn" data-gallery-filter="interior">Salon Interior</button>
+          </div>
+        </div>
+
+        <!-- Gallery Grid -->
+        <div class="gallery-grid" id="galleryGrid">
+
+          <!-- Item 1: Bridal -->
+          <div class="gallery-item" data-category="bridal"
+            data-src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1200&q=85"
+            data-caption="Royal Bridal Couture Hair & Dewy Makeup Art">
+            <div class="gallery-media-wrapper">
+              <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=800&q=80"
+                alt="Royal Bridal Couture Hair & Dewy Makeup Art" loading="lazy">
+              <div class="gallery-overlay">
+                <span class="overlay-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+                <span class="gallery-cat">Bridal Looks</span>
+                <h4 class="gallery-title">Royal Bridal Couture Look</h4>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 2: Salon Interior -->
+          <div class="gallery-item" data-category="interior"
+            data-src="https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=1200&q=85"
+            data-caption="Glamora Studio Arched Mirror Luxury Styling Lounge">
+            <div class="gallery-media-wrapper">
+              <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=800&q=80"
+                alt="Glamora Studio luxury styling interior" loading="lazy">
+              <div class="gallery-overlay">
+                <span class="overlay-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+                <span class="gallery-cat">Salon Interior</span>
+                <h4 class="gallery-title">Arched Mirror Lounge</h4>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 3: Hair Styling -->
+          <div class="gallery-item" data-category="hair"
+            data-src="https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&w=1200&q=85"
+            data-caption="Sun-Kissed Balayage & Velvet Hollywood Waves">
+            <div class="gallery-media-wrapper">
+              <img src="https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&w=800&q=80"
+                alt="Balayage and voluminous wave styling" loading="lazy">
+              <div class="gallery-overlay">
+                <span class="overlay-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+                <span class="gallery-cat">Hair Styling</span>
+                <h4 class="gallery-title">Velvet Hollywood Waves</h4>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 4: Skincare & Spa -->
+          <div class="gallery-item" data-category="skin"
+            data-src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=1200&q=85"
+            data-caption="24K Rose Gold Facial Infusion & Massage">
+            <div class="gallery-media-wrapper">
+              <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=800&q=80"
+                alt="Facial skincare and botanical massage" loading="lazy">
+              <div class="gallery-overlay">
+                <span class="overlay-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+                <span class="gallery-cat">Skincare & Spa</span>
+                <h4 class="gallery-title">Rose Gold Facial Therapy</h4>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 5: Nail Art -->
+          <div class="gallery-item" data-category="nails"
+            data-src="https://images.unsplash.com/photo-1632345031435-8727f6897d53?auto=format&fit=crop&w=1200&q=85"
+            data-caption="Rose Gold Glazed Chrome Nail Couture">
+            <div class="gallery-media-wrapper">
+              <img src="https://images.unsplash.com/photo-1632345031435-8727f6897d53?auto=format&fit=crop&w=800&q=80"
+                alt="Rose gold chrome glazed manicure" loading="lazy">
+              <div class="gallery-overlay">
+                <span class="overlay-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+                <span class="gallery-cat">Nail Art</span>
+                <h4 class="gallery-title">Rose Glazed Chrome Nails</h4>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 6: Bridal Glamour -->
+          <div class="gallery-item" data-category="bridal"
+            data-src="https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?auto=format&fit=crop&w=1200&q=85"
+            data-caption="Timeless Reception Glamour & Floral Accents">
+            <div class="gallery-media-wrapper">
+              <img src="https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?auto=format&fit=crop&w=800&q=80"
+                alt="Bridal hair accessory and glowing beauty" loading="lazy">
+              <div class="gallery-overlay">
+                <span class="overlay-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+                <span class="gallery-cat">Bridal Looks</span>
+                <h4 class="gallery-title">Reception Glamour Updo</h4>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Lightbox Modal for Gallery -->
+    <div class="lightbox-modal" id="lightboxModal" aria-hidden="true" role="dialog" aria-label="Image Preview">
+      <div class="lightbox-dialog">
+        <button class="lightbox-close" id="lightboxClose" aria-label="Close image preview">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+        <button class="lightbox-nav lightbox-prev" id="lightboxPrev" aria-label="Previous image">
+          <i class="fa-solid fa-chevron-left"></i>
+        </button>
+        <div class="lightbox-content">
+          <img src="" alt="" id="lightboxImg">
+          <p class="lightbox-caption" id="lightboxCaption"></p>
+        </div>
+        <button class="lightbox-nav lightbox-next" id="lightboxNext" aria-label="Next image">
+          <i class="fa-solid fa-chevron-right"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- ==================== OUR EXPERTS SECTION ==================== -->
+    <section class="experts-section section-padding" id="experts">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="section-tag center-tag">
+            <i class="fa-solid fa-crown"></i>
+            <span>The Masters of Glamora</span>
+          </div>
+          <h2 class="section-title">
+            Meet Our World-Class <br>
+            <span class="highlight-text">Beauty Specialists</span>
+          </h2>
+          <p class="section-subtitle">
+            Our entirely female team of licensed cosmetologists, hair couturiers, and aesthetic doctors bring global
+            artistry and gentle empathy to every service.
+          </p>
+        </div>
+
+        <div class="experts-grid">
+
+          <!-- Expert 1 -->
+          <div class="expert-card">
+            <div class="expert-media">
+              <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=80"
+                alt="Sophia Alvarez - Master Bridal Artist" loading="lazy">
+              <div class="expert-socials">
+                <a href="#experts" aria-label="Sophia's Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#experts" aria-label="Sophia's Pinterest"><i class="fa-brands fa-pinterest"></i></a>
+              </div>
+              <span class="expert-badge">10+ Yrs Artistry</span>
+            </div>
+            <div class="expert-info">
+              <h3 class="expert-name">Sophia Alvarez</h3>
+              <p class="expert-title">Master Bridal & Makeup Director</p>
+              <p class="expert-bio">
+                Trained in Milan and Paris, Sophia is renowned for her featherweight HD airbrush technique and timeless
+                bridal elegance.
+              </p>
+              <div class="expert-specialty">
+                <span class="specialty-label">Signature:</span>
+                <span class="specialty-val">Dewy Glam & Couture Bridal</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Expert 2 -->
+          <div class="expert-card">
+            <div class="expert-media">
+              <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=800&q=80"
+                alt="Elena Rostova - Senior Hair Couturier" loading="lazy">
+              <div class="expert-socials">
+                <a href="#experts" aria-label="Elena's Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#experts" aria-label="Elena's TikTok"><i class="fa-brands fa-tiktok"></i></a>
+              </div>
+              <span class="expert-badge">Color Specialist</span>
+            </div>
+            <div class="expert-info">
+              <h3 class="expert-name">Elena Rostova</h3>
+              <p class="expert-title">Senior Hair Couturier & Colorist</p>
+              <p class="expert-bio">
+                Expert in European balayage, keratin thermal reconstruction, and precision cuts that effortlessly
+                enhance bone structure.
+              </p>
+              <div class="expert-specialty">
+                <span class="specialty-label">Signature:</span>
+                <span class="specialty-val">Lived-in Balayage & Blowouts</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Expert 3 -->
+          <div class="expert-card">
+            <div class="expert-media">
+              <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=800&q=80"
+                alt="Dr. Aria Patel - Lead Clinical Aesthetician" loading="lazy">
+              <div class="expert-socials">
+                <a href="#experts" aria-label="Aria's Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#experts" aria-label="Aria's LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+              </div>
+              <span class="expert-badge">Clinical Aesthetic</span>
+            </div>
+            <div class="expert-info">
+              <h3 class="expert-name">Dr. Aria Patel</h3>
+              <p class="expert-title">Lead Aesthetician & Skin Guru</p>
+              <p class="expert-bio">
+                Passionate about cellular skin rejuvenation, barrier restoration, non-invasive facial sculpting, and
+                holistic herbal treatments.
+              </p>
+              <div class="expert-specialty">
+                <span class="specialty-label">Signature:</span>
+                <span class="specialty-val">24K Gold Facial & Barrier Repair</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Expert 4 -->
+          <div class="expert-card">
+            <div class="expert-media">
+              <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=800&q=80"
+                alt="Chloe Bennett - Master Nail Couturier" loading="lazy">
+              <div class="expert-socials">
+                <a href="#experts" aria-label="Chloe's Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#experts" aria-label="Chloe's Pinterest"><i class="fa-brands fa-pinterest"></i></a>
+              </div>
+              <span class="expert-badge">Nail Couturier</span>
+            </div>
+            <div class="expert-info">
+              <h3 class="expert-name">Chloe Bennett</h3>
+              <p class="expert-title">Senior Nail Artist & Spa Lead</p>
+              <p class="expert-bio">
+                Celebrated for her avant-garde Japanese nail art, hypoallergenic Russian manicure precision, and
+                restorative hand spa rituals.
+              </p>
+              <div class="expert-specialty">
+                <span class="specialty-label">Signature:</span>
+                <span class="specialty-val">Russian Gel & Rose Chrome</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== TESTIMONIALS SECTION ==================== -->
+    <section class="testimonials-section section-padding bg-light" id="testimonials">
+      <div class="container">
+        <!-- ==================== CLIENT EXPERIENCES / REVIEWS ARCHIVE ==================== -->
+        <div class="reviews-archive-wrapper" id="reviewsArchiveWrapper">
+          
+          <div class="reviews-archive-header text-center">
+            <h2 class="reviews-grid-heading">
+              Stories by <span class="highlight-text">Beauty Ritual</span>
+            </h2>
+            <p class="reviews-grid-lead">
+              Filter authentic experiences shared by our clients across bridal makeup, organic skincare, hair artistry, manicure-pedicures, and gentle waxing rituals.
+            </p>
+
+            <!-- Interactive Filter Navigation Tabs -->
+            <div class="reviews-filter-bar" role="tablist" aria-label="Review Categories Filter">
+              <button class="review-filter-btn active" data-filter="all" role="tab" aria-selected="true" aria-controls="reviewsGrid" id="filterBtnAll">
+                <i class="fa-solid fa-sparkles"></i>
+                <span>All Reviews</span>
+                <span class="filter-count-badge">8</span>
+              </button>
+              <button class="review-filter-btn" data-filter="bridal" role="tab" aria-selected="false" aria-controls="reviewsGrid" id="filterBtnBridal">
+                <i class="fa-solid fa-wand-magic-sparkles"></i>
+                <span>Bridal</span>
+                <span class="filter-count-badge">2</span>
+              </button>
+              <button class="review-filter-btn" data-filter="skincare" role="tab" aria-selected="false" aria-controls="reviewsGrid" id="filterBtnSkincare">
+                <i class="fa-solid fa-spa"></i>
+                <span>Skin Care</span>
+                <span class="filter-count-badge">2</span>
+              </button>
+              <button class="review-filter-btn" data-filter="hair" role="tab" aria-selected="false" aria-controls="reviewsGrid" id="filterBtnHair">
+                <i class="fa-solid fa-scissors"></i>
+                <span>Hair</span>
+                <span class="filter-count-badge">1</span>
+              </button>
+              <button class="review-filter-btn" data-filter="waxing" role="tab" aria-selected="false" aria-controls="reviewsGrid" id="filterBtnWaxing">
+                <i class="fa-solid fa-feather"></i>
+                <span>Waxing</span>
+                <span class="filter-count-badge">2</span>
+              </button>
+              <button class="review-filter-btn" data-filter="nails" role="tab" aria-selected="false" aria-controls="reviewsGrid" id="filterBtnNails">
+                <i class="fa-solid fa-hand-sparkles"></i>
+                <span>Manicure & Pedicure</span>
+                <span class="filter-count-badge">1</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Reviews Grid -->
+          <div class="reviews-grid" id="reviewsGrid" aria-live="polite">
+
+            <!-- Card 1: Bridal Makeup -->
+            <article class="review-grid-card" data-category="bridal">
+              <div class="card-accent-bar" aria-hidden="true"></div>
+              <div class="card-quote-icon" aria-hidden="true">
+                <i class="fa-solid fa-quote-right"></i>
+              </div>
+              <div class="card-header-row">
+                <div class="star-rating" aria-label="5 out of 5 stars">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <span class="service-tag-pill">
+                  <i class="fa-solid fa-crown"></i> Bridal Makeup
+                </span>
+              </div>
+              <blockquote class="card-review-text">
+                "Finding Glamora for my wedding week was pure serenity! Sophia and her artists crafted an ethereal, weightless bridal look that stayed radiant and poreless through 14 hours of non-stop rituals. The private bridal suite made me feel like an empress!"
+              </blockquote>
+              <div class="card-client-footer">
+                <div class="card-avatar-wrapper">
+                  <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80" alt="Aanya Deshmukh" class="card-client-avatar" loading="lazy">
+                  <span class="card-verified-badge" title="Verified Glamora Guest"><i class="fa-solid fa-check"></i></span>
+                </div>
+                <div class="card-client-info">
+                  <h4 class="card-client-name">Aanya Deshmukh</h4>
+                  <span class="card-service-exp">Bridal Couture & Royal Airbrush</span>
+                  <span class="card-meta-date">Verified Bride • 3 weeks ago</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Card 2: Gentle Silk Waxing -->
+            <article class="review-grid-card" data-category="waxing">
+              <div class="card-accent-bar" aria-hidden="true"></div>
+              <div class="card-quote-icon" aria-hidden="true">
+                <i class="fa-solid fa-quote-right"></i>
+              </div>
+              <div class="card-header-row">
+                <div class="star-rating" aria-label="5 out of 5 stars">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <span class="service-tag-pill">
+                  <i class="fa-solid fa-feather"></i> Gentle Silk Waxing
+                </span>
+              </div>
+              <blockquote class="card-review-text">
+                "I have hyper-sensitive skin that flares up with standard waxing, but Glamora's organic silk peel wax is miraculous. Virtually painless, soothing lavender aroma, and my skin felt silky with zero bumps or redness. Pristine sterile hygiene!"
+              </blockquote>
+              <div class="card-client-footer">
+                <div class="card-avatar-wrapper">
+                  <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=200&q=80" alt="Chloe Davenport" class="card-client-avatar" loading="lazy">
+                  <span class="card-verified-badge" title="Verified Glamora Guest"><i class="fa-solid fa-check"></i></span>
+                </div>
+                <div class="card-client-info">
+                  <h4 class="card-client-name">Chloe Davenport</h4>
+                  <span class="card-service-exp">Full Body Silk Wax & Soothing Care</span>
+                  <span class="card-meta-date">Verified Guest • 1 week ago</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Card 3: Facial Treatments -->
+            <article class="review-grid-card" data-category="skincare">
+              <div class="card-accent-bar" aria-hidden="true"></div>
+              <div class="card-quote-icon" aria-hidden="true">
+                <i class="fa-solid fa-quote-right"></i>
+              </div>
+              <div class="card-header-row">
+                <div class="star-rating" aria-label="5 out of 5 stars">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <span class="service-tag-pill">
+                  <i class="fa-solid fa-spa"></i> Facial Treatments
+                </span>
+              </div>
+              <blockquote class="card-review-text">
+                "The 24K Gold Hydra-Infusion facial revived my fatigued complexion before an international conference. Dr. Aria's ultrasonic infusion and cold rose-quartz drainage were bliss. My colleagues immediately complimented my dewy, lit-from-within glow!"
+              </blockquote>
+              <div class="card-client-footer">
+                <div class="card-avatar-wrapper">
+                  <img src="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=200&q=80" alt="Meera Sen" class="card-client-avatar" loading="lazy">
+                  <span class="card-verified-badge" title="Verified Glamora Guest"><i class="fa-solid fa-check"></i></span>
+                </div>
+                <div class="card-client-info">
+                  <h4 class="card-client-name">Meera Sen</h4>
+                  <span class="card-service-exp">24K Gold Hydra-Infusion Ritual</span>
+                  <span class="card-meta-date">Monthly Member • 5 days ago</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Card 4: Hair Styling -->
+            <article class="review-grid-card" data-category="hair">
+              <div class="card-accent-bar" aria-hidden="true"></div>
+              <div class="card-quote-icon" aria-hidden="true">
+                <i class="fa-solid fa-quote-right"></i>
+              </div>
+              <div class="card-header-row">
+                <div class="star-rating" aria-label="5 out of 5 stars">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <span class="service-tag-pill">
+                  <i class="fa-solid fa-scissors"></i> Hair Styling
+                </span>
+              </div>
+              <blockquote class="card-review-text">
+                "Elena is a visionary stylist! She created a dimensional Parisian balayage tailored to my hair texture without any bleach damage. Coupled with the Keratin Glass Gloss, my hair has never caught the light so vibrantly. The damask rose tea was a delightful treat."
+              </blockquote>
+              <div class="card-client-footer">
+                <div class="card-avatar-wrapper">
+                  <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=200&q=80" alt="Sarah Jenkins" class="card-client-avatar" loading="lazy">
+                  <span class="card-verified-badge" title="Verified Glamora Guest"><i class="fa-solid fa-check"></i></span>
+                </div>
+                <div class="card-client-info">
+                  <h4 class="card-client-name">Sarah Jenkins</h4>
+                  <span class="card-service-exp">Parisian Balayage & Keratin Gloss</span>
+                  <span class="card-meta-date">Verified Guest • 2 weeks ago</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Card 5: Manicure & Pedicure -->
+            <article class="review-grid-card" data-category="nails">
+              <div class="card-accent-bar" aria-hidden="true"></div>
+              <div class="card-quote-icon" aria-hidden="true">
+                <i class="fa-solid fa-quote-right"></i>
+              </div>
+              <div class="card-header-row">
+                <div class="star-rating" aria-label="5 out of 5 stars">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <span class="service-tag-pill">
+                  <i class="fa-solid fa-hand-sparkles"></i> Manicure & Pedicure
+                </span>
+              </div>
+              <blockquote class="card-review-text">
+                "The Rose Quartz Spa Pedicure was two hours of sheer heaven. Rose petal foot soak, organic scrub, and Chloe’s meticulous Russian chrome gel manicure. My nails survived four weeks of busy travel with zero chips. Unmatched luxury!"
+              </blockquote>
+              <div class="card-client-footer">
+                <div class="card-avatar-wrapper">
+                  <img src="https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?auto=format&fit=crop&w=200&q=80" alt="Priya Nair" class="card-client-avatar" loading="lazy">
+                  <span class="card-verified-badge" title="Verified Glamora Guest"><i class="fa-solid fa-check"></i></span>
+                </div>
+                <div class="card-client-info">
+                  <h4 class="card-client-name">Priya Nair</h4>
+                  <span class="card-service-exp">Rose Quartz Pedicure & Chrome Gel</span>
+                  <span class="card-meta-date">Verified Guest • 4 days ago</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Card 6: Skincare -->
+            <article class="review-grid-card" data-category="skincare">
+              <div class="card-accent-bar" aria-hidden="true"></div>
+              <div class="card-quote-icon" aria-hidden="true">
+                <i class="fa-solid fa-quote-right"></i>
+              </div>
+              <div class="card-header-row">
+                <div class="star-rating" aria-label="5 out of 5 stars">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <span class="service-tag-pill">
+                  <i class="fa-solid fa-seedling"></i> Skincare
+                </span>
+              </div>
+              <blockquote class="card-review-text">
+                "Dr. Aria created a bespoke barrier-repair protocol for my sensitive rosacea-prone skin. After three gentle sessions with calming botanical enzymes and medical-grade red LED therapy, my skin barrier feels strong and serene. I finally step out confident without makeup!"
+              </blockquote>
+              <div class="card-client-footer">
+                <div class="card-avatar-wrapper">
+                  <img src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?auto=format&fit=crop&w=200&q=80" alt="Zara Qureshi" class="card-client-avatar" loading="lazy">
+                  <span class="card-verified-badge" title="Verified Glamora Guest"><i class="fa-solid fa-check"></i></span>
+                </div>
+                <div class="card-client-info">
+                  <h4 class="card-client-name">Zara Qureshi</h4>
+                  <span class="card-service-exp">Cellular Barrier Repair & LED Therapy</span>
+                  <span class="card-meta-date">Verified Guest • 1 month ago</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Card 7: Bridal Makeup (Initially hidden, revealed on Load More) -->
+            <article class="review-grid-card review-hidden" data-category="bridal">
+              <div class="card-accent-bar" aria-hidden="true"></div>
+              <div class="card-quote-icon" aria-hidden="true">
+                <i class="fa-solid fa-quote-right"></i>
+              </div>
+              <div class="card-header-row">
+                <div class="star-rating" aria-label="5 out of 5 stars">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <span class="service-tag-pill">
+                  <i class="fa-solid fa-wand-magic-sparkles"></i> Bridal Makeup
+                </span>
+              </div>
+              <blockquote class="card-review-text">
+                "Sophia and her entourage handled my bridal party of seven with immaculate precision. Each bridesmaid had an individualized look that complemented their outfit, and my Sangeet and Reception makeup stayed picture-perfect until dawn. The calm women-only lounge eased all wedding stress!"
+              </blockquote>
+              <div class="card-client-footer">
+                <div class="card-avatar-wrapper">
+                  <img src="https://images.unsplash.com/photo-1548142813-c348350df52b?auto=format&fit=crop&w=200&q=80" alt="Natasha Kapoor" class="card-client-avatar" loading="lazy">
+                  <span class="card-verified-badge" title="Verified Glamora Guest"><i class="fa-solid fa-check"></i></span>
+                </div>
+                <div class="card-client-info">
+                  <h4 class="card-client-name">Natasha Kapoor</h4>
+                  <span class="card-service-exp">Sangeet & Reception Couture Glam</span>
+                  <span class="card-meta-date">Verified Bride • 3 weeks ago</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Card 8: Gentle Silk Waxing (Initially hidden, revealed on Load More) -->
+            <article class="review-grid-card review-hidden" data-category="waxing">
+              <div class="card-accent-bar" aria-hidden="true"></div>
+              <div class="card-quote-icon" aria-hidden="true">
+                <i class="fa-solid fa-quote-right"></i>
+              </div>
+              <div class="card-header-row">
+                <div class="star-rating" aria-label="5 out of 5 stars">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <span class="service-tag-pill">
+                  <i class="fa-solid fa-feather-pointed"></i> Gentle Silk Waxing
+                </span>
+              </div>
+              <blockquote class="card-review-text">
+                "Their warm strip-less silk wax formulated with organic bee propolis and soothing rosehip oil is second to none. The private suite, warming blanket, and gentle technique made an appointment I usually dread feel like a serene wellness session. Truly five stars!"
+              </blockquote>
+              <div class="card-client-footer">
+                <div class="card-avatar-wrapper">
+                  <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=200&q=80" alt="Emily Watson" class="card-client-avatar" loading="lazy">
+                  <span class="card-verified-badge" title="Verified Glamora Guest"><i class="fa-solid fa-check"></i></span>
+                </div>
+                <div class="card-client-info">
+                  <h4 class="card-client-name">Emily Watson</h4>
+                  <span class="card-service-exp">Full Body Velvet Silk Treatment</span>
+                  <span class="card-meta-date">Verified Guest • 6 days ago</span>
+                </div>
+              </div>
+            </article>
+
+          </div>
+
+          <!-- Bottom Actions: Load More Button & Luxury Disclaimer -->
+          <div class="reviews-bottom-actions text-center">
+            <button class="btn btn-load-more" id="loadMoreReviewsBtn" aria-label="Load more customer reviews">
+              <span class="btn-icon"><i class="fa-solid fa-plus"></i></span>
+              <span class="btn-text">Load More Reviews</span>
+              <span class="reviews-remaining-pill">(2 More)</span>
+            </button>
+            <p class="reviews-sample-disclaimer">
+              <i class="fa-solid fa-shield-heart"></i> Curated sample guest testimonials representing verified client experiences and in-salon beauty rituals at Glamora Studio.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== APPOINTMENT BOOKING SECTION ==================== -->
+    <section class="booking-section" id="booking" aria-labelledby="bookingTitle">
+      <div class="container">
+        <div class="booking-wrapper">
+          <!-- Left Column: Branding, Value Proposition & Condensed Trust Badges -->
+          <div class="booking-info-pane">
+            <div class="section-tag light-tag compact-tag">
+              <i class="fa-regular fa-calendar-check" aria-hidden="true"></i>
+              <span>Reserve Your Time</span>
+            </div>
+            <h2 class="booking-title" id="bookingTitle">
+              Begin Your Journey of <br>
+              <span class="highlight-text-light">Pampered Splendor</span>
+            </h2>
+            <p class="booking-lead">
+              Select your preferred service, specialist, and time. Your private suite will be prepared with signature
+              comforts upon arrival.
+            </p>
+
+            <!-- Condensed Micro-Badges Row -->
+            <div class="booking-micro-badges" role="list" aria-label="Glamora Guarantees">
+              <div class="micro-badge" role="listitem">
+                <i class="fa-solid fa-lock" aria-hidden="true"></i>
+                <span>100% Women-Only</span>
+              </div>
+              <div class="micro-badge" role="listitem">
+                <i class="fa-solid fa-clock-rotate-left" aria-hidden="true"></i>
+                <span>Free Rescheduling</span>
+              </div>
+              <div class="micro-badge" role="listitem">
+                <i class="fa-solid fa-spa" aria-hidden="true"></i>
+                <span>Sterile & Organic</span>
+              </div>
+            </div>
+
+            <!-- Sleek Concierge Micro Bar -->
+            <div class="booking-concierge-micro">
+              <div class="concierge-micro-icon">
+                <i class="fa-solid fa-headset" aria-hidden="true"></i>
+              </div>
+              <div class="concierge-micro-info">
+                <span class="concierge-micro-label">Prefer direct concierge booking?</span>
+                <a href="tel:+18005554526" class="concierge-micro-link">
+                  <i class="fa-solid fa-phone" aria-hidden="true"></i> +1 (800) 555-GLAM
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Sleek, Compact Interactive Booking Card -->
+          <div class="booking-form-pane">
+            <form id="appointmentForm" class="appointment-form compact-form" novalidate>
+              <div class="form-header">
+                <div class="form-header-title-wrap">
+                  <h3 class="form-card-title">Book an Appointment</h3>
+                  <span class="demo-inline-badge"
+                    title="Interactive frontend demo preview. In production, connects to booking CRM/WhatsApp API.">
+                    <i class="fa-solid fa-circle-info" aria-hidden="true"></i> Demo
+                  </span>
+                </div>
+                <span class="required-note">* Required fields</span>
+              </div>
+
+              <!-- Row 1: Full Name & Phone Number Side by Side -->
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="clientName">Full Name <span class="req">*</span></label>
+                  <div class="input-icon-wrap">
+                    <i class="fa-regular fa-user" aria-hidden="true"></i>
+                    <input type="text" id="clientName" name="name" placeholder="Jessica Davies" autocomplete="name"
+                      required>
+                  </div>
+                  <div class="error-msg" id="nameError">Please enter your full name.</div>
+                </div>
+
+                <div class="form-group">
+                  <label for="clientPhone">Phone Number <span class="req">*</span></label>
+                  <div class="input-icon-wrap">
+                    <i class="fa-solid fa-phone" aria-hidden="true"></i>
+                    <input type="tel" id="clientPhone" name="phone" placeholder="(555) 234-5678" autocomplete="tel"
+                      required>
+                  </div>
+                  <div class="error-msg" id="phoneError">Valid phone required.</div>
+                </div>
+              </div>
+
+              <!-- Row 2: Email & Service Selection Side by Side -->
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="clientEmail">Email Address <span class="req">*</span></label>
+                  <div class="input-icon-wrap">
+                    <i class="fa-regular fa-envelope" aria-hidden="true"></i>
+                    <input type="email" id="clientEmail" name="email" placeholder="jessica@example.com"
+                      autocomplete="email" required>
+                  </div>
+                  <div class="error-msg" id="emailError">Valid email required.</div>
+                </div>
+
+                <div class="form-group">
+                  <label for="serviceSelect">Service / Package <span class="req">*</span></label>
+                  <div class="input-icon-wrap">
+                    <i class="fa-solid fa-wand-magic-sparkles" aria-hidden="true"></i>
+                    <select id="serviceSelect" name="service" required>
+                      <option value="" disabled selected>-- Select Treatment --</option>
+                      <optgroup label="✨ Individual Services">
+                        <option value="Hair Styling & Couture Cuts">Hair Styling & Couture Cuts (₹3,735+)</option>
+                        <option value="Organic Hair Spa & Keratin Therapy">Organic Hair Spa & Keratin Therapy (₹6,225+)
+                        </option>
+                        <option value="Royal Radiance Facial & Skincare">Royal Radiance Facial & Skincare (₹5,395+)
+                        </option>
+                        <option value="Signature Bridal Makeup">Signature Bridal Makeup (₹14,940+)</option>
+                        <option value="Red Carpet Party Makeup">Red Carpet Party Makeup (₹5,810+)</option>
+                        <option value="Deluxe Manicure & Pedicure">Deluxe Manicure & Pedicure (₹3,320+)</option>
+                        <option value="Gentle Silk Waxing">Gentle Silk Waxing (₹2,490+)</option>
+                        <option value="Precision Eyebrow Threading">Precision Eyebrow Threading & Tint (₹1,494+)
+                        </option>
+                      </optgroup>
+                      <optgroup label="🎁 Special VIP Packages">
+                        <option value="The Royal Queen Bridal Journey (₹23,655)">The Royal Queen Bridal Journey
+                          (₹23,655)
+                        </option>
+                        <option value="Glow & Revive Day Spa (₹9,877)">Glow & Revive Day Spa Package (₹9,877)</option>
+                        <option value="Sip & Pamper Friends Duo (₹13,197)">Sip & Pamper Friends Duo (₹13,197)</option>
+                      </optgroup>
+                    </select>
+                  </div>
+                  <div class="error-msg" id="serviceError">Please select a service.</div>
+                </div>
+              </div>
+
+              <!-- Row 3: Preferred Date & Preferred Specialist Side by Side -->
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="appointmentDate">Preferred Date <span class="req">*</span></label>
+                  <div class="input-icon-wrap">
+                    <i class="fa-regular fa-calendar" aria-hidden="true"></i>
+                    <input type="date" id="appointmentDate" name="date" required>
+                  </div>
+                  <div class="error-msg" id="dateError">Please choose a valid date.</div>
+                </div>
+
+                <div class="form-group">
+                  <label for="specialistSelect">Specialist <span class="opt-label">(Optional)</span></label>
+                  <div class="input-icon-wrap">
+                    <i class="fa-solid fa-crown" aria-hidden="true"></i>
+                    <select id="specialistSelect" name="specialist">
+                      <option value="Any Available Specialist">Any Available Master Specialist</option>
+                      <option value="Sophia Alvarez (Bridal & Makeup Director)">Sophia Alvarez (Bridal & Makeup)
+                      </option>
+                      <option value="Elena Rostova (Senior Hair Couturier)">Elena Rostova (Senior Hair Couturier)
+                      </option>
+                      <option value="Dr. Aria Patel (Lead Clinical Aesthetician)">Dr. Aria Patel (Clinical Aesthetician)
+                      </option>
+                      <option value="Chloe Bennett (Senior Nail & Spa Lead)">Chloe Bennett (Nail & Spa Lead)</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Row 4: Compact Time Slot Picker (Pill Buttons) -->
+              <div class="form-group time-group">
+                <div class="time-header-line">
+                  <label>Preferred Time Slot <span class="req">*</span></label>
+                  <span class="selected-time-pill" id="selectedTimeHint">10:00 AM selected</span>
+                </div>
+                <div class="time-chips-grid compact-pills" id="timeSlotContainer" role="radiogroup"
+                  aria-label="Select appointment time">
+                  <button type="button" class="time-chip" data-time="10:00 AM">10:00 AM</button>
+                  <button type="button" class="time-chip" data-time="11:30 AM">11:30 AM</button>
+                  <button type="button" class="time-chip" data-time="01:00 PM">01:00 PM</button>
+                  <button type="button" class="time-chip" data-time="02:30 PM">02:30 PM</button>
+                  <button type="button" class="time-chip" data-time="04:00 PM">04:00 PM</button>
+                  <button type="button" class="time-chip" data-time="05:30 PM">05:30 PM</button>
+                  <button type="button" class="time-chip" data-time="07:00 PM">07:00 PM</button>
+                </div>
+                <input type="hidden" id="selectedTime" name="time" required>
+                <div class="error-msg" id="timeError">Please select a time slot.</div>
+              </div>
+
+              <!-- Row 5: Compact Special Requests / Notes -->
+              <div class="form-group notes-group">
+                <label for="clientNotes">Special Requests / Notes <span class="opt-label">(Optional)</span></label>
+                <textarea id="clientNotes" name="notes" rows="2"
+                  placeholder="Skin sensitivities, bridal details, beverage preferences..."></textarea>
+              </div>
+
+              <!-- Submit Button -->
+              <button type="submit" class="btn btn-primary btn-block submit-booking-btn" id="submitBookingBtn">
+                <span>Confirm Appointment Request</span>
+                <i class="fa-solid fa-sparkles" aria-hidden="true"></i>
+              </button>
+
+              <!-- Discreet Footer Metadata & Security Notes -->
+              <div class="form-footer-meta">
+                <span class="form-footer-item">
+                  <i class="fa-solid fa-lock" aria-hidden="true"></i> Strict Women-Only Privacy
+                </span>
+                <span class="footer-divider">•</span>
+                <span class="form-footer-item">
+                  <i class="fa-solid fa-circle-check" aria-hidden="true"></i> Instant Concierge Hold
+                </span>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Appointment Confirmation Modal -->
+    <div class="confirmation-modal" id="confirmationModal" aria-hidden="true" role="dialog"
+      aria-labelledby="confirmModalTitle">
+      <div class="confirmation-dialog">
+        <div class="modal-sparkle-icon"><i class="fa-solid fa-circle-check"></i></div>
+        <h3 id="confirmModalTitle">Appointment Request Received!</h3>
+        <p class="modal-subtext">Thank you, <strong id="confirmClientName">Gorgeous</strong>! We have recorded your
+          reservation request.</p>
+
+        <div class="confirmation-card">
+          <div class="confirm-row">
+            <span class="c-label">Booking Reference:</span>
+            <span class="c-val highlight-ref" id="confirmRef">#GLAM-8291</span>
+          </div>
+          <div class="confirm-row">
+            <span class="c-label">Service:</span>
+            <span class="c-val" id="confirmService">-</span>
+          </div>
+          <div class="confirm-row">
+            <span class="c-label">Date & Time:</span>
+            <span class="c-val" id="confirmDateTime">-</span>
+          </div>
+          <div class="confirm-row">
+            <span class="c-label">Specialist:</span>
+            <span class="c-val" id="confirmSpecialist">-</span>
+          </div>
+          <div class="confirm-row">
+            <span class="c-label">Contact:</span>
+            <span class="c-val" id="confirmContact">-</span>
+          </div>
+        </div>
+
+        <div class="modal-backend-callout">
+          <i class="fa-solid fa-bell"></i>
+          <div>
+            <strong>Interactive Frontend Demo Note:</strong>
+            <p>In a full production deployment, this triggers an automated SMS/WhatsApp verification message and
+              synchronizes with the salon's booking management database.</p>
+          </div>
+        </div>
+
+        <div class="modal-buttons">
+          <button class="btn btn-primary btn-block" id="closeConfirmModal">
+            <span>Done & Return to Site</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Quick Price Estimator Modal -->
+    <div class="calc-modal" id="estimatorModal" aria-hidden="true" role="dialog" aria-labelledby="calcModalTitle">
+      <div class="calc-dialog">
+        <div class="calc-header">
+          <div class="calc-title-group">
+            <i class="fa-solid fa-sparkles"></i>
+            <h3 id="calcModalTitle">Custom Pampering Estimator</h3>
+          </div>
+          <button class="calc-close" id="closeEstimatorBtn" aria-label="Close price estimator">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+        <p class="calc-desc">Select any combination of rituals to see your estimated investment and pampered time.</p>
+
+        <div class="calc-services-list">
+          <label class="calc-checkbox-item">
+            <input type="checkbox" class="calc-service-check" data-price="3735" data-time="45"
+              data-name="Hair Styling & Cut">
+            <span class="check-box-custom"></span>
+            <div class="calc-item-details">
+              <strong>Hair Styling & Couture Cut</strong>
+              <small>Face-framing cut, wash & blowdry</small>
+            </div>
+            <span class="calc-item-price">₹3,735</span>
+          </label>
+
+          <label class="calc-checkbox-item">
+            <input type="checkbox" class="calc-service-check" data-price="6225" data-time="75"
+              data-name="Organic Hair Spa">
+            <span class="check-box-custom"></span>
+            <div class="calc-item-details">
+              <strong>Organic Hair Spa & Keratin Therapy</strong>
+              <small>Scalp detox, hot oil, collagen hair mask</small>
+            </div>
+            <span class="calc-item-price">₹6,225</span>
+          </label>
+
+          <label class="calc-checkbox-item">
+            <input type="checkbox" class="calc-service-check" data-price="5395" data-time="60"
+              data-name="Royal Radiance Facial">
+            <span class="check-box-custom"></span>
+            <div class="calc-item-details">
+              <strong>Royal Radiance 24K Facial</strong>
+              <small>Micro-exfoliation, jade lymphatic massage</small>
+            </div>
+            <span class="calc-item-price">₹5,395</span>
+          </label>
+
+          <label class="calc-checkbox-item">
+            <input type="checkbox" class="calc-service-check" data-price="5810" data-time="60"
+              data-name="Red Carpet Party Makeup">
+            <span class="check-box-custom"></span>
+            <div class="calc-item-details">
+              <strong>Red Carpet Party Makeup</strong>
+              <small>HD sculpted complexion, custom mink lashes</small>
+            </div>
+            <span class="calc-item-price">₹5,810</span>
+          </label>
+
+          <label class="calc-checkbox-item">
+            <input type="checkbox" class="calc-service-check" data-price="3320" data-time="60"
+              data-name="Deluxe Mani & Pedi">
+            <span class="check-box-custom"></span>
+            <div class="calc-item-details">
+              <strong>Deluxe Manicure & Pedicure</strong>
+              <small>Rose petal milk bath, exfoliation, gel polish</small>
+            </div>
+            <span class="calc-item-price">₹3,320</span>
+          </label>
+
+          <label class="calc-checkbox-item">
+            <input type="checkbox" class="calc-service-check" data-price="1494" data-time="20"
+              data-name="Brow Threading & Tint">
+            <span class="check-box-custom"></span>
+            <div class="calc-item-details">
+              <strong>Precision Eyebrow Threading & Tint</strong>
+              <small>Brow mapping, organic thread, hybrid tint</small>
+            </div>
+            <span class="calc-item-price">₹1,494</span>
+          </label>
+        </div>
+
+        <div class="calc-summary-card">
+          <div class="calc-summary-row">
+            <span>Estimated Total Duration:</span>
+            <strong id="calcTotalTime">0 mins</strong>
+          </div>
+          <div class="calc-summary-row">
+            <span>Estimated Total Cost:</span>
+            <strong class="total-cost-num" id="calcTotalPrice">₹0</strong>
+          </div>
+        </div>
+
+        <div class="calc-actions">
+          <button class="btn btn-primary btn-block" id="applyEstimatorToBooking">
+            <span>Proceed to Book These Services</span>
+            <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==================== FAQ ACCORDION SECTION ==================== -->
+    <section class="faq-section section-padding bg-light">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="section-tag center-tag">
+            <i class="fa-solid fa-circle-question"></i>
+            <span>Frequently Asked</span>
+          </div>
+          <h2 class="section-title">
+            Everything You Need <br>
+            <span class="highlight-text">To Know Before Visiting</span>
+          </h2>
+        </div>
+
+        <div class="faq-accordion-container">
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>Is Glamora Studio strictly and exclusively for women?</span>
+              <i class="fa-solid fa-chevron-down faq-arrow"></i>
+            </button>
+            <div class="faq-answer">
+              <p>Yes, absolutely! Glamora Studio was purposely founded as a 100% women-only sanctuary. All of our
+                hairstylists, aestheticians, therapists, and studio staff are women. We also maintain frosted
+                architectural glass and discreet private chambers so our clients—including those who observe hijab or
+                seek complete modesty—feel completely at home.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>Do I need to make an appointment in advance?</span>
+              <i class="fa-solid fa-chevron-down faq-arrow"></i>
+            </button>
+            <div class="faq-answer">
+              <p>While we gladly welcome walk-ins when schedule permits, we strongly recommend booking in advance,
+                particularly for bridal consultations, hair spas, and weekend pampering sessions. This ensures our team
+                prepares your dedicated private styling lounge and custom refreshments.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>What hygiene and safety measures do you observe?</span>
+              <i class="fa-solid fa-chevron-down faq-arrow"></i>
+            </button>
+            <div class="faq-answer">
+              <p>Your wellbeing is paramount. We use hospital-grade autoclave sterilization for all metal instruments,
+                single-use disposable nail files and wax applicators, and organic, hypoallergenic, ammonia-free products
+                tested for delicate skin.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>Can I customize a bridal or group pampering package?</span>
+              <i class="fa-solid fa-chevron-down faq-arrow"></i>
+            </button>
+            <div class="faq-answer">
+              <p>Yes! We love tailoring bridal parties, baby showers, and friends' retreats. You can reserve our VIP
+                private mezzanine complete with personalized music, floral arrangements, catering, and bespoke treatment
+                combinations.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== CONTACT SECTION ==================== -->
+    <section class="contact-section section-padding" id="contact">
+      <div class="container">
+        <div class="contact-grid">
+
+          <!-- Contact Information & Salon Details -->
+          <div class="contact-details-column">
+            <div class="section-tag">
+              <i class="fa-solid fa-compass"></i>
+              <span>Locate & Inquire</span>
+            </div>
+            <h2 class="section-title">
+              We Look Forward To <br>
+              <span class="highlight-text">Welcoming You</span>
+            </h2>
+            <p class="contact-description">
+              Step into an environment of grace, warmth, and peerless hospitality. Reach out with any inquiries or visit
+              us during our operating hours.
+            </p>
+
+            <div class="contact-cards-list">
+
+              <!-- Address -->
+              <div class="contact-info-card">
+                <div class="contact-card-icon"><i class="fa-solid fa-location-dot"></i></div>
+                <div class="contact-card-text">
+                  <h4>Studio Address</h4>
+                  <p>Vivekananda Circle, 2nd Block,<br>Opposite Lakshmi Garments,<br>Mysore – 57003, Karnataka, India.
+                  </p>
+                  <span class="note-pill"><i class="fa-solid fa-car"></i> Client Parking Available</span>
+                </div>
+              </div>
+
+              <!-- Phone & WhatsApp -->
+              <div class="contact-info-card">
+                <div class="contact-card-icon"><i class="fa-solid fa-phone"></i></div>
+                <div class="contact-card-text">
+                  <h4>Telephone & WhatsApp</h4>
+                  <p>Concierge Desk: <strong>+1 (800) 555-GLAM</strong></p>
+                  <p>Direct WhatsApp: <strong>+1 (555) 789-ROSE</strong></p>
+                </div>
+              </div>
+
+              <!-- Hours -->
+              <div class="contact-info-card">
+                <div class="contact-card-icon"><i class="fa-regular fa-clock"></i></div>
+                <div class="contact-card-text">
+                  <h4>Salon Hours (Women Only)</h4>
+                  <p>Monday – Saturday: <strong>9:30 AM – 8:00 PM</strong></p>
+                  <p>Sunday: <strong>10:00 AM – 6:00 PM</strong></p>
+                  <span class="hours-status-badge" id="openStatusBadge">
+                    <span class="status-dot"></span> Open Today
+                  </span>
+                </div>
+              </div>
+
+              <!-- Email -->
+              <div class="contact-info-card">
+                <div class="contact-card-icon"><i class="fa-regular fa-envelope"></i></div>
+                <div class="contact-card-text">
+                  <h4>Email Concierge</h4>
+                  <p>concierge@glamorastudio.com</p>
+                  <p>bridal@glamorastudio.com</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Interactive Map Embed & Message Box -->
+          <div class="contact-interactive-column">
+            <div class="map-container-card">
+              <div class="map-header-bar">
+                <div class="map-title-wrap">
+                  <i class="fa-solid fa-map-pin"></i>
+                  <span>Glamora Studio Location</span>
+                </div>
+                <a href="https://www.google.com/maps/dir/?api=1&amp;destination=Vivekananda+Circle%2C+2nd+Block%2C+Opposite+Lakshmi+Garments%2C+Mysore%2C+Karnataka%2C+India"
+                  target="_blank" rel="noopener noreferrer" class="btn btn-outline-map">
+                  <span>Get Directions</span>
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+
+              <!-- Styled Map Embed Container -->
+              <div class="styled-map-embed">
+                <iframe title="Glamora Studio Location Map - Vivekananda Circle, Mysore"
+                  src="https://maps.google.com/maps?q=Vivekananda+Circle%2C+2nd+Block%2C+Opposite+Lakshmi+Garments%2C+Mysore%2C+Karnataka&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
+                  width="100%" height="340" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+                <div class="map-floating-pin">
+                  <div class="pin-pulse"></div>
+                  <i class="fa-solid fa-gem"></i>
+                  <span>Glamora Studio</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Quick Inquiry Form -->
+            <div class="quick-inquiry-card">
+              <h4>Send a Quick Message to Our Reception</h4>
+              <form id="quickContactForm" novalidate>
+                <div class="form-row">
+                  <div class="form-group">
+                    <input type="text" id="inquiryName" placeholder="Your Name" required>
+                  </div>
+                  <div class="form-group">
+                    <input type="email" id="inquiryEmail" placeholder="Your Email" required>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <textarea id="inquiryMessage" rows="3" placeholder="How may our salon concierge assist you today?"
+                    required></textarea>
+                </div>
+                <button type="submit" class="btn btn-secondary btn-block">
+                  <span>Send Message</span>
+                  <i class="fa-regular fa-paper-plane"></i>
+                </button>
+              </form>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-top-grid">
+
+        <!-- Footer Col 1: Brand & Bio -->
+        <div class="footer-brand-col">
+          <a href="#hero" class="brand-logo footer-logo" aria-label="Glamora Studio Home">
+            <div class="logo-mark">
+              <svg viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg" class="logo-svg" role="img"
+                aria-hidden="true">
+                <defs>
+                  <linearGradient id="roseLineGradFooter" x1="14" y1="12" x2="42" y2="44"
+                    gradientUnits="userSpaceOnUse">
+                    <stop offset="0%" stop-color="#FFFCFA" />
+                    <stop offset="50%" stop-color="#F7E7E9" />
+                    <stop offset="100%" stop-color="#B76E79" />
+                  </linearGradient>
+                  <radialGradient id="faceAuraFooter" cx="28" cy="28" r="26" gradientUnits="userSpaceOnUse">
+                    <stop offset="0%" stop-color="#FFFCFA" stop-opacity="0.12" />
+                    <stop offset="70%" stop-color="#F7E7E9" stop-opacity="0.05" />
+                    <stop offset="100%" stop-color="#1C0A1A" stop-opacity="0" />
+                  </radialGradient>
+                </defs>
+                <!-- Soft Background Aura -->
+                <circle cx="28" cy="28" r="26" fill="url(#faceAuraFooter)" />
+
+                <!-- Subtle Outer Ring -->
+                <circle class="logo-ring-base" cx="28" cy="28" r="25" stroke="#F7E7E9" stroke-width="1.15" />
+
+                <!-- Blush-Pink Rotating Outline -->
+                <circle class="logo-ring-orbit" cx="28" cy="28" r="22.5" stroke="#B76E79" stroke-width="0.9"
+                  stroke-dasharray="4 3" />
+
+                <!-- Face Icon & Hair Art Group -->
+                <g class="face-art-group">
+                  <!-- Feminine Profile Contour -->
+                  <path class="face-contour"
+                    d="M24 13.5 C25.8 16.5 27.2 19.5 27.6 22 L31.4 25.2 C30.8 25.9 30 26.5 29.6 27 C30.5 27.5 31.2 28.1 31 28.8 C30.2 29.2 29.7 29.5 29.4 29.9 C30.2 30.5 30.7 31.3 30.3 31.9 C29.5 32.3 29.1 32.7 29.3 33.3 C29.9 34.1 29.9 34.9 29 35.7 C27.3 37.1 25.3 38.3 24.3 40.3 C23.8 41.8 24 43.8 24.3 45.8"
+                    stroke="url(#roseLineGradFooter)" stroke-width="1.25" stroke-linecap="round"
+                    stroke-linejoin="round" />
+
+                  <!-- Serene Closed Eyelash & Brow -->
+                  <path d="M26 23.8 Q27.6 23.2 29 24.8" stroke="#F7E7E9" stroke-width="1" stroke-linecap="round" />
+                  <path d="M28.6 24.6 L29.6 24" stroke="#F7E7E9" stroke-width="0.85" stroke-linecap="round" />
+                  <path d="M24.6 21.2 Q26.6 19.8 28.8 21" stroke="#F7E7E9" stroke-width="0.85" stroke-linecap="round"
+                    stroke-opacity="0.85" />
+
+                  <!-- Flowing Hair Waves -->
+                  <path d="M23.5 13.5 C20 13 16 16 14.5 21 C12.8 27 13.5 33.5 15.5 38.5 C17 42 20 44.5 23.5 45.5"
+                    stroke="url(#roseLineGradFooter)" stroke-width="1.2" stroke-linecap="round" />
+                  <path d="M21 16.5 C18 19 16.2 23.5 16.8 28.5 C17.3 33.5 19.3 37.5 22.2 40.5" stroke="#F7E7E9"
+                    stroke-width="0.85" stroke-linecap="round" stroke-opacity="0.75" />
+                  <path d="M24 13.8 C22 17 20 20 20.5 23.5" stroke="#F7E7E9" stroke-width="0.95"
+                    stroke-linecap="round" />
+
+                  <!-- Elegant Décolletage / Neck Curve -->
+                  <path d="M27 42 C29 43.8 32 44.8 35 45.2" stroke="#F7E7E9" stroke-width="1.1" stroke-linecap="round"
+                    stroke-opacity="0.75" />
+
+                  <!-- Subtle Floral Detail (Blossom tucked at hair) -->
+                  <circle cx="20.5" cy="23.2" r="1.1" fill="#FFFCFA" />
+                  <path d="M20.5 23.2 C20 20.8 22 20.2 21.8 22.2 Z" fill="#B76E79" stroke="#FFFCFA"
+                    stroke-width="0.75" />
+                  <path d="M20.5 23.2 C22.8 21.7 23.5 23.2 22 23.7 Z" fill="#B76E79" stroke="#FFFCFA"
+                    stroke-width="0.75" />
+                  <path d="M20.5 23.2 C22.5 25.2 21 26 20.8 24.2 Z" fill="#B76E79" stroke="#FFFCFA"
+                    stroke-width="0.75" />
+                  <path d="M20.5 23.2 C18.8 25.2 18 23.7 19.5 23.2 Z" fill="#B76E79" stroke="#FFFCFA"
+                    stroke-width="0.75" />
+                  <path d="M20.5 23.2 C18.5 21.7 20 20.7 20.2 22.2 Z" fill="#B76E79" stroke="#FFFCFA"
+                    stroke-width="0.75" />
+                  <path d="M19.5 25.8 Q17 28.2 17.5 30.8" stroke="#FFFCFA" stroke-width="0.8" stroke-linecap="round" />
+                  <path d="M17.5 27.8 Q15.8 28.3 16.5 29.8 Q17.8 29.3 17.5 27.8 Z" fill="#B76E79" stroke="#FFFCFA"
+                    stroke-width="0.7" />
+                </g>
+              </svg>
+            </div>
+            <div class="logo-text-group">
+              <span class="logo-title">GLAMORA</span>
+              <span class="logo-subtitle">STUDIO • GIRLS ONLY</span>
+            </div>
+          </a>
+          <p class="footer-bio">
+            An elite, girls-only beauty haven dedicated to timeless elegance, personalized artistry, and restorative
+            pampering in absolute privacy and comfort.
+          </p>
+          <div class="footer-social-links">
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i
+                class="fa-brands fa-instagram"></i></a>
+            <a href="https://pinterest.com" target="_blank" rel="noopener noreferrer" aria-label="Pinterest"><i
+                class="fa-brands fa-pinterest-p"></i></a>
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i
+                class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><i
+                class="fa-brands fa-tiktok"></i></a>
+            <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><i
+                class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+
+        <!-- Footer Col 2: Quick Links -->
+        <div class="footer-col">
+          <h4 class="footer-heading">Quick Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About Our Studio</a></li>
+            <li><a href="#services">Beauty Services</a></li>
+            <li><a href="#offers">Special Offers & Packages</a></li>
+            <li><a href="#gallery">Artistry Gallery</a></li>
+            <li><a href="#experts">Our Master Specialists</a></li>
+            <li><a href="#testimonials">Client Testimonials</a></li>
+            <li><a href="#contact">Contact & Hours</a></li>
+          </ul>
+        </div>
+
+        <!-- Footer Col 3: Services Menu -->
+        <div class="footer-col">
+          <h4 class="footer-heading">Beauty Rituals</h4>
+          <ul class="footer-links">
+            <li><a href="#services">Hair Styling & Couture Cuts</a></li>
+            <li><a href="#services">Organic Hair Spa & Keratin</a></li>
+            <li><a href="#services">Royal Radiance 24K Facial</a></li>
+            <li><a href="#services">Signature Bridal Couture</a></li>
+            <li><a href="#services">Red Carpet Party Makeup</a></li>
+            <li><a href="#services">Deluxe Manicure & Pedicure</a></li>
+            <li><a href="#services">Gentle Silk Body Waxing</a></li>
+            <li><a href="#services">Precision Eyebrow Threading</a></li>
+          </ul>
+        </div>
+
+        <!-- Footer Col 4: Newsletter & Privacy Guarantee -->
+        <div class="footer-col footer-newsletter-col">
+          <h4 class="footer-heading">Join The Queens Club</h4>
+          <p>Receive exclusive private invitations, secret seasonal offers, and beauty masterclass tips directly in your
+            inbox.</p>
+          <form id="newsletterForm" class="footer-newsletter-form" novalidate>
+            <div class="newsletter-input-group">
+              <input type="email" id="newsletterEmail" placeholder="Enter your email address" required>
+              <button type="submit" aria-label="Subscribe to newsletter">
+                <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+            <div class="newsletter-msg" id="newsletterMsg"></div>
+          </form>
+          <div class="women-only-seal">
+            <i class="fa-solid fa-lock"></i>
+            <span>100% Women-Only Space & Safe Sanctuary Guarantee</span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Footer Bottom Bar -->
+      <div class="footer-bottom-bar">
+        <div class="copyright-text">
+          &copy; <span id="currentYear">2026</span> <strong>Glamora Studio</strong>. All Rights Reserved. Exclusively
+          for Women.
+        </div>
+        <div class="footer-bottom-links">
+          <a href="#privacy">Privacy Policy</a>
+          <span class="dot-sep">•</span>
+          <a href="#terms">Terms of Service</a>
+          <span class="dot-sep">•</span>
+          <a href="#booking">Appointment Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Back to Top Button -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- Floating WhatsApp Quick Concierge Button -->
+  <a href="https://wa.me/15557897673?text=Hello%20Glamora%20Studio!%20I%20would%20like%20to%20inquire%20about%20booking%20a%20service."
+    class="floating-whatsapp" target="_blank" rel="noopener noreferrer"
+    aria-label="Chat with Glamora Studio Concierge on WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+    <span class="whatsapp-tooltip">Chat with Concierge</span>
+  </a>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-container" id="toastContainer" aria-live="polite"></div>
+
+  <!-- JavaScript File -->
+  <script src="script.js"></script>
+</body>
+
+</html>
